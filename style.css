@@ -1,0 +1,10 @@
+* {margin: 0;padding: 0;}
+div {
+  height: 100px;
+  widows: 200px;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+input { margin: 10px;height: 50%;font-size: 30px; }
+h3 { margin:30px;text-align: center; }
