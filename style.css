@@ -2,4 +2,4 @@
 body {background:#7fffd4;}
 #all {height: 70vh;text-align: center;}
 input {width:100%; text-align:center; padding:5px; font-size:2em; color:#cca349;}
-h3 {margin:20px;text-align:center;color:#ff7d78;}
+h3 {font-size:2em;margin:20px;text-align:center;color:#ff7d78;}
