@@ -10,7 +10,7 @@ function sockMerchant(n, ar) {
     const rem = [];
     let total = 0;
     for (let i = 0; i < arr.length; i++) {
-        //// checking if ( current iteration element  === the last iteration element ) ... then break and go to the next element.
+        //// checking if ( current iteration element  === the last iteration element ) ... if so ... then break and go to the next element.
     /*    if (arr[i] != arr[i - 1] && arr[i] != arr[i - 2] && arr[i] != arr[i - 3] && arr[i] != arr[i - 4] && arr[i] != arr[i - 5] && arr[i] != arr[i - 6] && arr[i] != arr[i - 7] && arr[i] != arr[i - 8] && arr[i] != arr[i - 9] && arr[i] != arr[i - 10] && arr[i] != arr[i - 11]) { */
         if (arr[i] != arr[i - 1]) {
             /// part1: iterating from the current index n[i] to the end of the array ( n.length - i+1 ) and ( n.length - i+1 ) = n[-1]
